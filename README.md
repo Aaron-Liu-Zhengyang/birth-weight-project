@@ -15,22 +15,22 @@ This project provides a fully reproducible data science pipeline to analyze and 
 ```text
 .
 ├── data/
+│   ├── 01_data_cleaning.ipynb
 │   ├── birthwt.csv
 │   └── birthwt_final_cleaned.csv
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb
 │   ├── 02_EDA.ipynb
 │   └── 03_modeling_stats.ipynb
 └── README.md
 ```
 
-3. Environment & Dependencies
+## 3. Environment & Dependencies
 This project requires Python 3.x. To ensure exact reproducibility of the results and figures, install the required packages using pip:
 
 Bash
 pip install pandas numpy matplotlib seaborn statsmodels scipy
 
-4. Execution Order
+## 4. Execution Order
 To reproduce the findings without errors, please open and execute the notebooks in the notebooks/ folder in the following strict order:
 
 01_data_cleaning.ipynb
