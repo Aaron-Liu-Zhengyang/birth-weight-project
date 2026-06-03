@@ -50,3 +50,13 @@ Action: Analyzes underlying distributions, derives custom risk features, and com
 Input: data/birthwt_final_cleaned.csv
 
 Action: Fits the final regression model, evaluates residuals, and outputs the sample prediction interval.
+
+## 5. AI Disclosure Statement
+
+This code was generated with the assistance of artificial intelligence.
+
+AI Model Type: Large Language Model (LLM)
+
+Model & Version: GPT-5.5
+
+Purpose & Human Oversight: > The AI was used for [e.g., drafting, proofreading, brainstorming, or data analysis]. Final review, edits, and factual verification were performed entirely by a human author to ensure accuracy and quality.
